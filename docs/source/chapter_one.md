@@ -56,7 +56,7 @@
 | q_x86_cn_sim  |CPU计算队列 | 远程Intel集群| Intel(R) Xeon(R) CPU E5-2680 v3 |    5\*24\*128G    |
 | q_amd_share   |CPU计算队列 | 远程AMD集群  | AMD EPYC 7H12| 500\*128\*256G    |
 | q_intel_share |CPU计算队列 | 远程Intel集群 | Intel Xeon 8358| 60\*64\*256G      |
-| wzhcnormal |CPU计算队列 | 远程Intel集群 | 2*7285H 32C | 60\*64\*256G   |
+| wzhcnormal |CPU计算队列 | 远程Intel集群 | Intel Xeon 7285H | 2\*64\*256G   |
 
 ![no](figs/notice.png) **注意** :
 
