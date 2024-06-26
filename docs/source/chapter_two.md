@@ -91,39 +91,37 @@ a）登录试用账户后，单击topbar右上角用户管理按钮，下拉框�
 
 - 登录平台后，单击底部dock栏 **数据管理**![数据管理](figs/fre/file.png)图标，打开数据管理窗口，单击**上传文件**按钮，上传工程文件：
 
-![文件界面](figs/uploadfile.png)
+    ![文件界面](figs/Abaqus-a/uploadfile.png)
 
 #### 2. 上传
 
 - 点选或者拖放上传工程文件至平台：
-
-![abaqus-inp](figs/abaqus-inp.png)
+    ![abaqus-inp](figs/Abaqus-a/abaqus-inp.png)
 
 #### 3. 启动应用
 
-- 登录平台后，**单击**底部dock栏**仿真计算**![](figs/fre/sim.png)图标，进入仿真计算应用桌面，**双击**桌面**Abaqus614-u**软件图标，弹出作业提交界面：
-
-![](figs/Abaqus-start.png)
+- 登录平台后，**单击**底部dock栏**仿真计算**![图标](figs/fre/sim.png)图标，进入仿真计算应用桌面，**双击**桌面**Abaqus-a**软件图标，弹出作业提交界面：
+    ![启动](figs/Abaqus-a/Abaqus-start.png)
 
 #### 4. 作业参数设置
-- 输入作业相关参数，单击**选择文件**，选中上传的工程文件，双击完成选择：
 
-![](figs/Abaqus-selectfile.png)
+- 输入作业相关参数，单击**选择文件**，选中上传的工程文件，双击完成选择：
+    ![选择文件](figs/Abaqus-a/Abaqus-selectfile.png)
 
 #### 5. 作业提交
-单击提交，完成作业的提交，进入作业详情界面：
 
-![](figs/Abaqus-job-details.png)
+- 单击提交，完成作业的提交，进入作业详情界面：
+    ![详情](figs/Abaqus-a/Abaqus-job-details.png)
 
 #### 6. 查看输出
-- 单击查看输出，进入作业输出界面：
 
-![](figs/Abaqus-output.png)
+- 单击查看输出，进入作业输出界面：
+    ![输出](figs/Abaqus-a/Abaqus-output.png)
 
 #### 7. 计算完成，查看结果
-- 单击**作业数据**，进入个人文件目录，即可查看输出结果文件。如需关闭后再次查看，请点击下方dock栏作业管理![](figs/fre/work_mgt.png)，点击作业号进入。
 
-![](figs/Abaqus-odb.png)
+- 单击**作业数据**，进入个人文件目录，即可查看输出结果文件。如需关闭后再次查看，请点击下方dock栏**作业管理**![图标](figs/fre/work_mgt.png)，点击作业号进入。
+    ![结果](figs/Abaqus-a/Abaqus-odb.png)
 
 ### 案例二：StarCCM+ 仿真计算应用
 
@@ -269,7 +267,7 @@ a）登录试用账户后，单击topbar右上角用户管理按钮，下拉框�
 
     ![展示demo](figs/script_sub_teaching/wq.png)
 
-****************************
+**************************************
 **方法2:**
 
 - 右键demo文件,点击文本编辑
