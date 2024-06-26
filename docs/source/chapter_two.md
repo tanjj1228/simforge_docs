@@ -126,17 +126,18 @@ a）登录试用账户后，单击topbar右上角用户管理按钮，下拉框�
 ### 案例二：StarCCM+ 仿真计算应用
 
 **案例说明**
-
 本案例展示了基于“神工坊”V2.0 进行StarCCM+仿真作业及在线协同的基本操作，演示算例是一个千万网格的搅拌器模型。
 
 **操作演示**
+以下展示具体的操作步骤
 
 #### 1. 启动应用
-- 登录平台后，**单击**底部dock栏**仿真计算**![](figs/fre/sim.png)图标，进入仿真计算应用桌面，**双击**桌面StarCCM+软件图标，弹出作业提交界面：
 
-![](figs/StarCCM-job.png)
+- 登录平台后，**单击**底部dock栏**仿真计算**![仿真计算](figs/fre/sim.png)图标，进入仿真计算应用桌面，**双击**桌面StarCCM-a软件图标，弹出作业提交界面：
+    ![job](figs/StarCCM-job.png)
 
 #### 2. 作业参数设置
+
 - 输入作业相关参数，单击提交，提交计算：
 
 **资源池：** 选择AIP资源池
@@ -147,49 +148,46 @@ a）登录试用账户后，单击topbar右上角用户管理按钮，下拉框�
 
 **使用节点个数：** 拟使用的节点个数
 
-**每节点核心数：** 每个节点上所使用的核心数  实际使用总CPU核数=使用节点个数*每节点核心数，q_x86_sf队列，每节点使用的核心数不能超过128核
-
-![](figs/StarCCMjobpara.png)
+**每节点核心数：** 每个节点上所使用的核心数  实际使用总CPU核数=使用节点个数 × 每节点核心数，q_x86_sf队列，每节点使用的核心数不能超过128核
+    ![para](figs/StarCCM-a/StarCCMjobpara.png)
 
 #### 3. 作业详情
+
 - 提交后进入作业详情界面，显示作业一些详细信息。单击 图形窗口 按钮，进入软件原生界面：
-
-![](figs/StarCCM-job-info.png)
-
-![](figs/StarCCM-GUI.png)
+    ![info](figs/StarCCM-a/StarCCM-job-info.png)
+    ![GUI](figs/StarCCM-a/StarCCM-GUI.png)
 
 #### 4. 软件并行设置
-- 软件操作同本地一致，其中并行模式选择 parallel on Local Host，并行核数同 b) 步骤中一致
 
-![](figs/StarCCM-parallel-set.png)
+- 软件操作同本地一致，其中并行模式选择 parallel on Local Host，并行核数同 2. 步骤中一致
+    ![para](figs/StarCCM-parallel-set.png)
 
 #### 5. 在线协同
-- 对于企业用户，在平台有多个用户，可以在线共享图形界面（仅支持VNC模式），单击顶栏功能管理下拉框，选择在线协同：
 
-![](figs/topbar-cooperate.png)
+- 对于企业用户，在平台有多个用户，可以在线共享图形界面（仅支持VNC模式），单击顶栏功能管理下拉框，选择在线协同：
+    ![co](figs/topbar-cooperate.png)
 
 #### 6. 共享作业
-- 弹出的在线协同窗口中选择作业连接页面，选择要共享的作业，单击操作列里的分享按钮：
 
-![](figs/share-job.png)
+- 弹出的在线协同窗口中选择作业连接页面，选择要共享的作业，单击操作列里的分享按钮：
+    ![job](figs/share-job.png)
 
 #### 7. 共享成员选择
+
 - 弹窗中选择共享模式，选择需要共享给的成员，点击提交：
-
-**观察：** 被共享者只可观看图形界面
-**互动：** 被共享者可操作图形界面
-
-![](figs/share-job-member.png)
+    **观察：** 被共享者只可观看图形界面
+    **互动：** 被共享者可操作图形界面
+    ![member](figs/share-job-member.png)
 
 #### 8. 共享成功
-- 共享成功后，作业 操作列 按钮增加断开分享按钮，点击可以端口分共享：
 
-![](figs/stop-sharejob.png)
+- 共享成功后，作业 操作列 按钮增加断开分享按钮，点击可以端口分共享：
+    ![sharejob](figs/stop-sharejob.png)
 
 #### 9. 协同作业
-- 被共享者，登录桌面后，在 在线协同 界面，协同连接 子页面可以查看被共享的作业，点击连接进入共享界面:
 
-![](figs/StarCCM-shared.png)
+- 被共享者，登录桌面后，在 在线协同 界面，协同连接 子页面可以查看被共享的作业，点击连接进入共享界面:
+    ![share](figs/StarCCM-shared.png)
 
 ### 案例三：脚本提交
 
