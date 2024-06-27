@@ -56,13 +56,13 @@
 | q_x86_cn_sim  |CPU计算队列 | 远程Intel集群| Intel(R) Xeon(R) CPU E5-2680 v3 |    5\*24\*128G    |
 | q_amd_share   |CPU计算队列 | 远程AMD集群  | AMD EPYC 7H12| 500\*128\*256G    |
 | q_intel_share |CPU计算队列 | 远程Intel集群 | Intel Xeon 8358| 60\*64\*256G      |
-| wzhcnormal |CPU计算队列 | 远程Intel集群 | Intel Xeon 7285H | 2\*64\*256G   |
+| wzhcnormal |CPU计算队列 | 远程Intel集群 | Intel Xeon 7285H | 1561\*64\*256G   |
 
 ![no](figs/notice.png) **注意** :
 
-1. 远程队列目前仅支持非图形界面方式提交，本地集群支持图形化作业 
+1. 远程队列目前仅支持非图形界面方式提交，本地集群支持图形化作业
 2. 仿真计算应用需使用到CPU队列，图形应用需使用到GPU队列
 3. 集群资源格式为：节点数\*每节点核数\*每节点内存大小
 
-![](figs/warn.png) **警告** 
+![warn](figs/warn.png) **警告**
 不必要的作业进程注意及时关闭，以免造成队列资源浪费和费用损失
