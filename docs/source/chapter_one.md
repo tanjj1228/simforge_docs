@@ -44,24 +44,25 @@
 | 应用实例 | 应用实例可以将用户的参数存储为实例，用户切换应用实例完成应用资源选择。|
 
 ## 平台队列资源
-以下是目前神工坊2.0平台已经接入的硬件资源（更新时间2023.1117）：
+
+以下是目前神工坊2.0平台已经接入的硬件资源（更新时间2024.0625）：
 | 名称         |  队列类型|所在集群 |    型号规格          |    集群资源 |
 |:-------:      |:-------:     | :----:    | :----:           |:----:      |  
-| q_x86_sfexper | CPU计算队列| 本地AMD集群| AMD EPYC 7H12/7742  |     1\*128\*512G    | 
-| q_x86_sf      |CPU计算队列 |本地AMD集群| AMD EPYC 7H12/7742|     8\*128\*512G   | 
+| q_x86_sfexper | CPU计算队列| 本地AMD集群| AMD EPYC 7H12/7742  |     1\*128\*512G    |
+| q_x86_sf      |CPU计算队列 |本地AMD集群| AMD EPYC 7H12/7742|     8\*128\*512G   |
 |  GPU_sf       | GPU图形队列|本地集群| nvidia Quadro P400 |   1\*64\*128G     |
 |  GPU_RTX      |  GPU图形队列 |本地集群| nvidia Quadro RTX 4000|    1\*40\*512G    |
-| q_x86_share   |CPU计算队列 | 远程Intel集群| Intel(R) Xeon(R) CPU E5-2680 v3 |    766\*24\*128G    | 
-| q_x86_cn_sim  |CPU计算队列 | 远程Intel集群| Intel(R) Xeon(R) CPU E5-2680 v3 |    5\*24\*128G    | 
+| q_x86_share   |CPU计算队列 | 远程Intel集群| Intel(R) Xeon(R) CPU E5-2680 v3 |    766\*24\*128G    |
+| q_x86_cn_sim  |CPU计算队列 | 远程Intel集群| Intel(R) Xeon(R) CPU E5-2680 v3 |    5\*24\*128G    |
 | q_amd_share   |CPU计算队列 | 远程AMD集群  | AMD EPYC 7H12| 500\*128\*256G    |
-| q_intel_share |CPU计算队列 | 远程Intel集群| Intel Xeon 8358| 60\*64\*256G      |
+| q_intel_share |CPU计算队列 | 远程Intel集群 | Intel Xeon 8358| 60\*64\*256G      |
+| wzhcnormal |CPU计算队列 | 远程Intel集群 | Hygon 7285 | 1561\*64\*256G   |
 
+![no](figs/notice.png) **注意** :
 
-![](figs/notice.png) **注意** :
-
-1. 远程队列目前仅支持非图形界面方式提交，本地集群支持图形化作业 
+1. 远程队列目前仅支持非图形界面方式提交，本地集群支持图形化作业
 2. 仿真计算应用需使用到CPU队列，图形应用需使用到GPU队列
 3. 集群资源格式为：节点数\*每节点核数\*每节点内存大小
 
-![](figs/warn.png) **警告** 
+![warn](figs/warn.png) **警告**
 不必要的作业进程注意及时关闭，以免造成队列资源浪费和费用损失
